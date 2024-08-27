@@ -21,14 +21,6 @@ cd <repository_directory>
 pip install -r requirements.txt
 ```
 
-#### **yolov5 모듈 관련 오류 해결**
-
-`yolov5` 폴더에서 `No module named 'utils'` 오류가 발생할 경우, 다음 명령어를 터미널에 입력하여 해결하세요:
-
-```bash
-set PYTHONPATH=yolov5;%PYTHONPATH%
-```
-
 ## 2. 빠른 시작
 
 프로젝트 폴더 내의 `params.json` 파일을 열고, Clova Speech로부터 받은 `invoke_url_value`와 `secret_key_value`를 각각 `user_invoke_url_value`와 `user_secret_key_value`에 입력하세요. GPT의 API 키는 `user_openai_key_value`에 입력합니다.
@@ -69,10 +61,10 @@ res = ClovaSpeechClient()
 res.start_recording()
 
 # 녹음 종료
-res.stop_recording()
+speech = res.stop_recording()
 
 # 텍스트 인식 결과 출력
-print(os.getenv('speech'))
+print(speech)
 ```
 
 ### 카메라 처리만 이용할 경우
@@ -88,11 +80,11 @@ detector = FER()
 detector.start_camera()
 
 # 카메라 종료
-detector.stop_camera()
+current_emotion = detector.stop_camera()
 
 # 감정 인식 결과 출력
-print(os.getenv('current_emotion'))
+print(current_emotion)
 ```
 
 ## 라이센스
-이 프로젝트는 AGPL-3.0 라이센스 하에 제공됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
+이 프로젝트는 __ 라이센스 하에 제공됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
