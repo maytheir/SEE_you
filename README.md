@@ -16,7 +16,7 @@
 먼저, 프로젝트를 클론하고 필요한 라이브러리를 설치합니다. 터미널에서 다음 명령어를 입력하세요:
 
 ```bash
-git clone <repository_url>
+git clone [<repository_url>](https://github.com/maytheir/redemptions-prompt-generater.git)
 cd <repository_directory>
 pip install -r requirements.txt
 ```
