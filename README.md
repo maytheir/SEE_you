@@ -103,8 +103,6 @@ print(voice_emotion)
 ## 라이센스
 이 프로젝트는 AGPL3.0 라이센스 하에 제공됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
 
-## Data set License
-'''bash
 ## Acknowledgements
 
 This project utilizes multiple datasets, all of which are licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
@@ -132,4 +130,3 @@ This project utilizes multiple datasets, all of which are licensed under the [Cr
 - **Publisher**: Roboflow
 - **Publication Date**: May 2024
 - **Access Date**: August 28, 2024
-```
