@@ -102,3 +102,34 @@ print(voice_emotion)
 
 ## 라이센스
 이 프로젝트는 AGPL3.0 라이센스 하에 제공됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
+
+## Data set License
+'''bash
+## Acknowledgements
+
+This project utilizes multiple datasets, all of which are licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+### 1. FER Final Project Dataset
+- **Dataset Title**: [FER Final Project Dataset](https://universe.roboflow.com/fer-group-6/fer-final-project)
+- **Author**: FER Group 6
+- **Published On**: Roboflow Universe
+- **Publisher**: Roboflow
+- **Publication Date**: May 2024
+- **Access Date**: August 28, 2024
+
+### 2. facedetection2 Dataset
+- **Dataset Title**: [facedetection2 Dataset](https://universe.roboflow.com/emotiondetection/facedetection2-6qc02)
+- **Author**: emotiondetection
+- **Published On**: Roboflow Universe
+- **Publisher**: Roboflow
+- **Publication Date**: March 2023
+- **Access Date**: August 28, 2024
+
+### 3. expression Dataset
+- **Dataset Title**: [expression Dataset](https://universe.roboflow.com/yolok-6hiio/expression-rjtzg)
+- **Author**: YOLOK
+- **Published On**: Roboflow Universe
+- **Publisher**: Roboflow
+- **Publication Date**: May 2024
+- **Access Date**: August 28, 2024
+```
