@@ -1,4 +1,4 @@
-We built a prompt generator for our language model. 
+We built a prompt generator.
 
 ## 실행 가이드
 
