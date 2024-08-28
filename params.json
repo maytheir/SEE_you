@@ -1,0 +1,20 @@
+{
+    "clova":
+    {
+        "user_invoke_url_value" : "YOUR-CLOVA-INVOKE-URL-KEY-VALUE",
+       
+        "user_secret_key_value" : "YOUR-CLOVA-SECRET-KEY-VALUE"
+    },
+    "gpt":
+    {
+        "user_openai_key_value" : "YOUT-OPENAI-KEY-VALUE"
+    },
+    "yolo":
+    {
+        "yolov5_model_path" : "models/FER_v4.pt"
+    },
+    "voice":
+    {
+        "voice_model_path" : "models/conv1d-bi_lstm-transformer_audio_model_augmented_mk2.h5"
+    }
+}
